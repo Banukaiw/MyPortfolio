@@ -1,26 +1,24 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
-import contactImg from '../../images/contact.png';
+import contactImg from "../../images/contact.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <div className="navbar" >
       <div className="logo">Banuka Ishara</div>
-
-      <img src="" alt="" />
-
-      <div classname="desktopMenu"></div>
-      <Link className="desktopMenuListItem">Home</Link>
-      <Link className="desktopMenuListItem">Clients</Link>
-      <Link className="desktopMenuListItem">About</Link>
-      <Link className="desktopMenuListItem">Portfolio</Link>
+      <ul className="desktopMenu">
+        <li><a className="desktopMenuListItem">Home</a></li>
+        <li><a className="desktopMenuListItem">Clients</a></li>
+        <li><a className="desktopMenuListItem">About</a></li>
+        <li><a className="desktopMenuListItem">Portfolio</a></li>
+      </ul>
 
       <button className="desktopMenuBtn">
         <img src={contactImg} alt="" className="desltopMenuImg" />
         <div className="contactmebtn">Contact Me</div>
       </button>
-    </nav>
+    </div>
   );
 };
 
