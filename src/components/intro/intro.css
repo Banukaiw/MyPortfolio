@@ -1,67 +1,96 @@
 
 .container{
-    padding: 10px 10%;}
+    padding: 10px 10%;
+    
+    
+}
+ 
 #intro{
     height: 87vh;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
     margin-bottom: 1%;
+    background-color: black;
+    
 }
 
 
 .bg{
     position: absolute;
-    top:3.2rem;
-    right: 0;
-    z-index: -1;
+    top:3rem;
+    right: 2%;
+    z-index: 1; 
     object-fit: cover;
     height: 90%;
+
+    
    
 }
+
 
 .introContent{
     height: 100vh;
     width: 100vw;
     /* margin-top: 17%; */
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 700;
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
+    background-color: black;
+
 }
 
 .hello{
-    font-size: 1.75rem;
+    font-size: 30px;
     font-weight: 100;
+    cursor: pointer;
+    z-index: 2;
+    
 }
+.introText{
+    z-index: 2;
+}
+
 .introname{
     color: aqua;
+    z-index: 2;
 }
 
 .intropara{
-    font-size: medium;
+    font-size: 18px;
     font-weight: 200;
     letter-spacing: 1px;
+    z-index: 2;
 }
 
 .btn{
-    background-color: white;
-    margin: 1rem 0;
-    padding: 0.75rem 2rem;
+    background-color: aqua;
+    margin: 15px 0px 0px 0px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 2rem;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    z-index: 2;
 }
 
-.btnImg{
+/* .btnImg{
     object-fit: cover;
-    margin: 0 0.25rem;
+    margin: 1px 1px 1px 1px;
     height: 1rem;
-}
+    padding: 1px 1px 1px 1px;
+    display: flex;
+} */
 
- @media screen and (max-width:480px) {
+ @media screen and (max-width:680px) {
     .bg{
         right: -10vw;
+        height: 70%;
     }
      .introContent{
         font-size: 10vw;

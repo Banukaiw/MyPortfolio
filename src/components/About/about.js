@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./about.css";
 import Profile4 from "../../images/profile4.png";
 
@@ -11,6 +11,22 @@ const About = () => {
     setActiveTab(tabName);
   };
 
+
+  /* useEffect(() => {
+    const canvas = document.querySelector('canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Your canvas drawing code here
+    ctx.fillStyle = 'rgb(255, 0, 0)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Clean up event listeners if necessary
+    return () => {
+      // Clean up code if needed
+    };
+  }, []);
+ */
+
   return (
     <section id="about">
       <div className="container">
@@ -19,6 +35,8 @@ const About = () => {
             <img src={Profile4} alt="profile" />
           </div>
           <div className="about-col-2">
+
+         
             <h1 className="subtitle">About Me</h1>
             <p className="aboutme">
               I am a dedicated QA engineer with a proven track record of

@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 //import contactImg from "../../images/contact.jpg";
@@ -16,19 +16,19 @@ const Services = () => {
                  
                     <h2>Web Design</h2>
                     <p>hhhhhhhhhhhhhhhhhhhhhh</p>
-                    <a href = "#">Learn more</a>
+                    <a href = "#1">Learn more</a>
                 </div>
                 <div>
                 <i class="fa-solid fa-crop"></i>
                     <h2>Web Design</h2>
                     <p>hhhhhhhhhhhhhhhhhhhhhh</p>
-                    <a href = "#">Learn more</a>
+                    <a href = "#2">Learn more</a>
                 </div>
                 <div>
                 <i class="fa-brands fa-app-store-ios"></i>
                     <h2>Web Design</h2>
                     <p>hhhhhhhhhhhhhhhhhhhhhh</p>
-                    <a href = "#">Learn more</a>
+                    <a href = "#3">Learn more</a>
                 </div>
             </div>
 

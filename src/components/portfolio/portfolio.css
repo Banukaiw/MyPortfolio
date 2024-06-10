@@ -1,35 +1,64 @@
   
-.services-list2{
-    margin: 100px auto 50px;
+  #portfolio{
     width: 100%;
+    background-color: rgb(60, 145, 145);
+  }
+
+.services-list2{
+    margin: 50px auto 50px; 
+    min-height: 450px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
     grid-gap: 40px;
-    margin-top: 50px;
-   
+    
+
+     
 }
 
-.services-list2 div{
-    
+.services-list2 div{  
     background-size: cover;
     padding: 40px;
-    transition: ease-in-out 8s;
+  
+    transition: transform 0.5s ease-in-out, background-position 10s ease-in-out 0.5s;
+    
+    border-radius: 15px;
+    border-color: black;
+    border: 25px;
+    background-color: blue;
+    
 }
 
 .work1{
-    background: url("/public/images/work1.png");
-}
+     background: url("/public/images/work1.png"); 
+      
+     
+
+} 
 .work2{
     background: url("/public/images/work2.png");
 }
 .work3{
     background: url("/public/images/work3.png");
 }
+.work4{
+  background: url("/public/images/Netflix.png");
+}
+
+.work5{
+  background: url("/public/images/BurgerHouse.png");
+}
+
+
 
 
 .services-list2 div:hover{   
-    background-position: bottom;   
+  background-position: bottom;
+    transform: scale(1.1); 
 }
+
+
+
+
 
 
 
