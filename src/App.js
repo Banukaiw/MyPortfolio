@@ -2,29 +2,25 @@ import Navbar from "./components/Navbar/navbar";
 import Intro from "./components/intro/intro";
 import Skills from "./components/Skills/skills";
 import About from "./components/About/about";
-//import Test from "./components/test/test";
 import Services from "./components/services/services";
 import '@fortawesome/fontawesome-free/css/all.css';
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact/contact";
-//import Test2 from "./components/test/test2";
+import Uproject from "./components/UProject/uproject";
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar/> 
-  {/*  <Test/>  */}
-      {/* <Test2/> */}
+      <Navbar/> 
       <Intro/>
-        <Skills/>
-  <About/>  
-       <Services/>
+      <Skills/>
+      <About/>  
+      <Services/>
+      <Uproject/>
       <Portfolio/> 
       <Contact/> 
-       
-       {/* <App1/> */}
-       
-     
+    
     </div>
   );
 }

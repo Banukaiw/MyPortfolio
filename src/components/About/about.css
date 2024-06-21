@@ -3,6 +3,26 @@
     color: white;
     
 }
+#Sskills ul{
+    line-height: 10px;
+}
+#Sskills li{
+    list-style-type: square;
+    color: aqua;
+    
+}
+#Sskills li::marker{
+    
+    color: white;
+}
+
+
+.Profile4{
+    max-height: 87%;
+    max-width: 85%;
+   
+    filter: brightness(70%);
+}
 
 .row{
     display: flex; 

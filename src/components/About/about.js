@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import "./about.css";
-import Profile4 from "../../images/profile4.png";
+import Profile4 from "../../images/Banuka Ishara.jpg";
 
 const About = () => {
   // State to keep track of active tab
@@ -32,7 +32,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src={Profile4} alt="profile" />
+            <img className="Profile4" src={Profile4} alt="profile" />
           </div>
           <div className="about-col-2">
 
@@ -66,6 +66,12 @@ const About = () => {
                 onClick={() => openTab("education")}
               >
                 Education
+              </div>
+              <div
+                className={`tab-links ${activeTab === "Sskills" ? "active-link" : ""}`}
+                onClick={() => openTab("Sskills")}
+              >
+                Soft Skills
               </div>
             </div>
 
@@ -128,6 +134,26 @@ const About = () => {
                   </span>
                   <br />
                   British Council
+                </li>
+              </ul>
+            </div>
+
+            <div className={`tab-content ${activeTab === "Sskills" ? "active-tab" : ""}`} id="Sskills">
+              <ul class="Sskills">
+                <li>
+                  Self-Learn
+                </li>
+                <li>
+                  Team Work
+                </li>
+                <li>
+                  HarD work
+                </li>
+                <li>
+                  Creative
+                </li>
+                <li>
+                  Open Minded
                 </li>
               </ul>
             </div>

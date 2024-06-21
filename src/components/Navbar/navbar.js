@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="#about" activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Clients</a>
           </li>
           <li>
-            <a href="#services" className="desktopMenuListItem">Services1</a>
+            <a href="#services" className="desktopMenuListItem">Services</a>
           </li>
           <li>
             <a href="#portfolio" className="desktopMenuListItem">Portfolio</a>

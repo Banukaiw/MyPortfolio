@@ -3,7 +3,7 @@ import "./intro.css";
 import ProfileImg from "../../images/profile3.png";
 ///import BagImg from "../../images/bag.png";
 //import { Link } from "react-scroll";
-//import Backvideo from "../../images/"
+import Backvideo from "../../images/backvideo.mp4"
 
 const Intro = () => {
   return (
@@ -12,12 +12,16 @@ const Intro = () => {
         <source src="/images/backvideo.mp4" type="video/mp4"/>
       </video>  */}
 
+          <video className="video" src={Backvideo} autoPlay loop muted></video>
+
       <div className="container">
 
         
   
        <div className="intro">
+        
           <div className="introContent">
+          
             <span className="hello">Hello, It's Me</span>
             <span className="introText">
               <span className="introname">Banuka Ishara</span>
