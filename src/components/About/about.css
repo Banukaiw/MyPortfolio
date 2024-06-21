@@ -1,0 +1,142 @@
+#about{
+    padding: 10px 0;
+    color: white;
+    
+}
+#Sskills ul{
+    line-height: 10px;
+}
+#Sskills li{
+    list-style-type: square;
+    color: aqua;
+    
+}
+#Sskills li::marker{
+    
+    color: white;
+}
+
+
+.Profile4{
+    max-height: 87%;
+    max-width: 85%;
+   
+    filter: brightness(70%);
+}
+
+.row{
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+
+.about-col-1{   
+    flex-basis: 35%;
+   
+    margin: 0px auto;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    transition:  transform 0.5s;
+    
+}
+.about-col-1 img:hover{
+    /* transform: scale(1.2);  */
+    transform: translate(-10px);
+}
+
+.about-col-2{
+    flex-basis: 60%;
+    margin: 0px auto;
+
+}
+
+.subtitle{
+    
+
+    border-bottom: 5px solid aqua;
+    display: inline-block;
+    padding-bottom: 1px;
+    font-family: sans-serif;
+    border-width: 50%;
+   
+}
+
+.subtitle:hover{
+    
+    padding-bottom: 0.1rem;
+    border-bottom: 3px solid aqua;
+    width: 50%;
+}
+
+.subtitle::after{
+    content: "";
+    widows: 0;
+    height: 3px;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.subtitle.active-link::after{
+    width: 50%;
+}
+
+.aboutme{
+    text-align: justify;
+    margin-top: 2%;
+    font-family: 'Tahoma';
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.tab-links::after{
+    content: "";
+    widows: 0;
+    height: 3px;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-content ul li{
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.tab-content ul li span{
+    color: aqua;
+    font-size: 14px;
+}
+
+.tab-content{
+    display: none;
+
+}
+
+.tab-content.active-tab{
+    display: block;
+}

@@ -1,0 +1,120 @@
+
+.container{
+    padding: 10px 10%;
+      
+}
+ 
+#intro{
+    height: 87vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1%;
+    background-color: black;
+    
+}
+
+video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+} 
+
+
+.bg{
+    position: absolute;
+    top:3rem;
+    right: 2%;
+    z-index: 3; 
+    object-fit: cover;
+    height: 90%;
+
+    
+   
+}
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    /* margin-top: 17%; */
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.hello{
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+    z-index: 4;
+    
+}
+.introText{
+    z-index: 4;
+}
+
+.introname{
+    color: aqua;
+    z-index: 4;
+}
+
+.intropara{
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    z-index: 4;
+}
+
+.btn{
+    background-color: aqua;
+    margin: 15px 0px 0px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    z-index: 4;
+}
+
+/* .btnImg{
+    object-fit: cover;
+    margin: 1px 1px 1px 1px;
+    height: 1rem;
+    padding: 1px 1px 1px 1px;
+    display: flex;
+} */
+
+ @media screen and (max-width:680px) {
+    .bg{
+        right: -10vw;
+        height: 70%;
+    }
+     .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4,5vm;
+    } 
+}  
+/* 
+@media screen and (max-height:590px) {
+    .bg{
+        bottom: -10vw;
+    }
+     .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4,5vm;
+    } 
+}  */
