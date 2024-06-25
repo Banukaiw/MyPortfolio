@@ -59,7 +59,7 @@ const About = () => {
                 className={`tab-links ${activeTab === "experience" ? "active-link" : ""}`}
                 onClick={() => openTab("experience")}
               >
-                Experience
+                Experiences
               </div>
               <div
                 className={`tab-links ${activeTab === "education" ? "active-link" : ""}`}
