@@ -45,7 +45,7 @@ const About = () => {
               leveraging my skills by covering relevant courses, I bring a deep
               understanding of testing methodologies, both manual and
               automation. My education from SLII has equipped me with a solid
-              foundation in software engineering principles.
+              foundation in software engineering principless.
             </p>
 
             <div className="tab-titles">
