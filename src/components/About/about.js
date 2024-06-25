@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import "./about.css";
 import Profile4 from "../../images/Banuka Ishara.jpg";
 
@@ -45,7 +45,7 @@ const About = () => {
               leveraging my skills by covering relevant courses, I bring a deep
               understanding of testing methodologies, both manual and
               automation. My education from SLII has equipped me with a solid
-              foundation in software engineering principles.
+              foundation in software engineering principless.
             </p>
 
             <div className="tab-titles">
@@ -59,7 +59,7 @@ const About = () => {
                 className={`tab-links ${activeTab === "experience" ? "active-link" : ""}`}
                 onClick={() => openTab("experience")}
               >
-                Experience
+                Experiences
               </div>
               <div
                 className={`tab-links ${activeTab === "education" ? "active-link" : ""}`}
@@ -87,7 +87,7 @@ const About = () => {
                 <li>
                   <span>UI/UX</span>
                   <br />
-                  Design Web/App interfaces
+                  Design Web/App interface
                 </li>
                 <li>
                   <span>Web Development</span>
