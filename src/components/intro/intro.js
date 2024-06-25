@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
 import ProfileImg from "../../images/profile3.png";
+import ProfileImg2 from "../../images/proba.png";
 ///import BagImg from "../../images/bag.png";
 //import { Link } from "react-scroll";
 import Backvideo from "../../images/backvideo.mp4"
@@ -43,6 +44,7 @@ const Intro = () => {
             </button>
 
             <img className="bg" src={ProfileImg} alt="Profile" />
+           {/* <img className="bg1" src={ProfileImg2} alt="Profile" />  */}
           </div>
           <div className="introimg"></div>
         </div> 

@@ -18,12 +18,10 @@
 .services-list2 div{  
     background-size: cover;
     padding: 40px;
-  
     transition: transform 0.5s ease-in-out, background-position 10s ease-in-out 0.5s;
-    
     border-radius: 15px;
-    border-color: black;
-    border: 25px;
+    box-shadow: 5px 10px 8px #121212;
+    border: 1px solid #121212;
     background-color: blue;
     
 }
