@@ -2,6 +2,7 @@ import React from 'react'
 import "./contact.css";
 
 const Contact = () => {
+    
   return (
     <div id="contact">
         <div className="container">
@@ -21,8 +22,8 @@ const Contact = () => {
                 </div>
                 <div className="contact-right">
                     <form>
-                        <input type="text" name="name" placeholder="Your name hear.." required></input>
-                        <input type="email" name="email" placeholder="Enter your email hear.." required></input>
+                        <input type="text" name="Name" placeholder="Your name hear.." required></input>
+                        <input type="email" name="Email" placeholder="Enter your email hear.." required></input>
                         <textarea name="Message" rows="6" placeholder="Enter Your.." ></textarea>
                         <button type="submit" className="btn2"><i class="fa-solid fa-cloud-arrow-up"></i> Submit</button>
                     </form>
@@ -38,3 +39,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+//https://script.google.com/macros/s/AKfycbzvlWvr9P3vNQd31GXgIiRuBEeSwzw5SpXcyCXyXH5d4kOdFFkYUSZGQ3GwffcPgQg/exec

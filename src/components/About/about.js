@@ -73,6 +73,12 @@ const About = () => {
               >
                 Soft Skills
               </div>
+              <div
+                className={`tab-links ${activeTab === "course" ? "active-link" : ""}`}
+                onClick={() => openTab("course")}
+              >
+                Certificate Courses
+              </div>
             </div>
 
             {/* Tab content based on activeTab */}
@@ -154,6 +160,35 @@ const About = () => {
                 </li>
                 <li>
                   Open Minded
+                </li>
+              </ul>
+            </div>
+
+            <div className={`tab-content ${activeTab === "course" ? "active-tab" : ""}`} id="course">
+              <ul>
+                <li>
+                  <span>
+                  Online Certificate Course in React Basics - Mobile 
+                  and Web Development
+                  </span>
+                  <br />
+                  Coursera
+                </li>
+                <li>
+                  <span>
+                  Online Certificate Course Selenium WebDriver for 
+                  Beginners using JAVA.
+                  </span>
+                  <br />
+                  Udemy
+                </li>
+
+                <li>
+                  <span>
+                  Online Certificate Course in Selenium Basics
+                  </span>
+                  <br />
+                  Great Learning
                 </li>
               </ul>
             </div>

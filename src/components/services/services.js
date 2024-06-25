@@ -20,19 +20,20 @@ const Services = () => {
                 </div>
                 <div>
                 <i class="fa-solid fa-crop"></i>
-                    <h2>Web DeVeloper</h2>
-                   <p>C, C++, C#, Python, HTML, CSS, Java 
+                    <h2>Web Developer</h2>
+                   <p>C, C++, C#, Python, HTML, CSS, Java, 
                     JavaScript, PHP, MySQL, SQLite, Bootsrap, Mongo DB, MSSQL, React JS, Node JS</p> 
                     <a href = "#2">Learn more</a>
                 </div>
                 <div>
                 <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>Soft Skills</h2>
-                    <p>hhhhhhhhhhhhhhhhhhhhhh</p>
+                    <h2>App Design</h2>
+                    <p>Android</p>
                     <a href = "#3">Learn more</a>
                 </div>
             </div>
 
+        
         </div>
     </div>
    

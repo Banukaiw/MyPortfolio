@@ -34,6 +34,18 @@ video{
     
    
 }
+.bg1{
+    position: absolute;
+    top:3rem;
+    right: 2%;
+    z-index: 2; 
+    object-fit: cover;
+    height: 110%;
+
+    
+   
+}
+
 
 
 .introContent{
