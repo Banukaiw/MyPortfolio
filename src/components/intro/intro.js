@@ -43,7 +43,7 @@ const Intro = () => {
               Hire me
             </button>
 
-            <img className="bg" src={ProfileImg} alt="Profile" />
+            {/* <img className="bg" src={ProfileImg} alt="Profile" /> */}
            {/* <img className="bg1" src={ProfileImg2} alt="Profile" />  */}
           </div>
           <div className="introimg"></div>

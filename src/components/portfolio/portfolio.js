@@ -13,7 +13,7 @@ const Portfolio = () => {
           <div className="work2"></div>
           <div className="work3"></div>
           <div className="work4"></div>
-          <div className="work1"></div>
+          <div className="work6"></div>
           <div className="work5"></div>
         </div>
       </div>
