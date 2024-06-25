@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Font Examples</h1>
+      <h1>Font Examples1</h1>
       <div className="font-sample" style={{ fontFamily: 'Arial, sans-serif' }}>
         <strong>Arial:</strong> The quick brown fox jumps over the lazy dog.
       </div>
