@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
-import ProfileImg from "../../images/profile3.png";
-import ProfileImg2 from "../../images/proba.png";
+//import ProfileImg from "../../images/profile3.png";
+//import ProfileImg2 from "../../images/proba.png";
 ///import BagImg from "../../images/bag.png";
 //import { Link } from "react-scroll";
 import Backvideo from "../../images/backvideo.mp4"
