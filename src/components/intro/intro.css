@@ -59,6 +59,7 @@ video{
     flex-direction: column;
     justify-content: center;
     background-color: black;
+    
 
 }
 
@@ -67,15 +68,18 @@ video{
     font-weight: 100;
     cursor: pointer;
     z-index: 4;
+    animation: fadeIn 3s;
     
 }
 .introText{
     z-index: 4;
+    animation: fadeIn 3s;
 }
 
 .introname{
     color: aqua;
     z-index: 4;
+    animation: fadeIn 3s;
 }
 
 .intropara{
@@ -83,6 +87,7 @@ video{
     font-weight: 200;
     letter-spacing: 1px;
     z-index: 4;
+    animation: fadeIn 3s;
 }
 
 .btn{
@@ -96,6 +101,7 @@ video{
     display: flex;
     gap: 10px;
     z-index: 4;
+    animation: fadeIn 3s;
 }
 
 /* .btnImg{
@@ -130,3 +136,12 @@ video{
         font-size: 4,5vm;
     } 
 }  */
+
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
