@@ -9,6 +9,7 @@ const Services = () => {
   return (
     <div id = "services">
         <div class = "container">
+            
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
