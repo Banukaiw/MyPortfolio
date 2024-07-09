@@ -88,18 +88,18 @@ const Uproject = () => {
           </div> 
         </div>
 
-        <div class="section02">
+        <div class="section03">
           <div class="text1">
             <div>MERN Stack</div>
           </div>
           <div class="text2">
-            <div>University Project</div>
+            <div>Internship Project</div>
           </div>
           <div class="text3">
             <div>
               This is the Racoon AI project, I have being devloped during my internship periode.I led the development this web application using 
               the MERN stack, incorporating the Material UI library. I was responsible for the majority of the frontend 
- development within the project.
+              development within the project.
  
             </div>
           </div>
@@ -110,6 +110,7 @@ const Uproject = () => {
                 <img class="image-item2" src="/images/r1.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r2.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r3.png" alt="j1"></img>
+                <img class="image-item2" src="/images/r7.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r4.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r5.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r6.png" alt="j1"></img>
