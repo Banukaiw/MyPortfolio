@@ -4,7 +4,10 @@
 }
 
 .container{
-    padding: 10px 10%;}
+    padding: 10px 10%;
+    background-color: blue;
+}
+
 
 .sub-title{
     border-bottom: 5px solid aqua;

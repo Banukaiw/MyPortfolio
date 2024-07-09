@@ -2,6 +2,7 @@
   #portfolio{
     width: 100%;
     background-color: rgb(60, 145, 145);
+    /* background: url("/public/images/back2.jpg"); */
   }
 
 .services-list2{
@@ -11,51 +12,75 @@
     grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
     grid-gap: 40px;
     
-
-     
 }
 
 .services-list2 div{  
     background-size: cover;
     padding: 40px;
-    transition: transform 0.5s ease-in-out, background-position 10s ease-in-out 0.5s;
+    transition: transform 0.4s ease-in-out,  background-position 10s  ease-in-out 0.1s ;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #121212;
     border: 1px solid #121212;
     background-color: blue;
+    min-height: 200px;
     
 }
 
 .work1{
      background: url("/public/images/work1.png"); 
-      
-     
-
+    
 } 
 .work2{
     background: url("/public/images/work2.png");
+    
 }
 .work3{
     background: url("/public/images/work3.png");
 }
 .work4{
   background: url("/public/images/Netflix.png");
+  display: none;
 }
 
 .work5{
   background: url("/public/images/BurgerHouse.png");
+  display: none;
 }
 
 .work6{
   background: url("/public/images/work6.png");
+  display: none;
+  
+}
+.work7{
+  background: url("/public/images/work7.png");
+  
 }
 
 
+.services-list2 div:nth-child(4),
+.services-list2 div:nth-child(5),
+.services-list2 div:nth-child(6){
+  display: inline-block;
+}
+
+.portbtn{
+  background-color: none;
+  padding: 10px 13px 10px 13px ;
+  border-radius: 8px;
+  border: 3px solid rgb(0, 0, 0);
+  color: #000000;
+
+}
+.portbtn1{
+  display: flex;
+  justify-content: center;
+}
 
 
 .services-list2 div:hover{   
   background-position: bottom;
-    transform: scale(1.1); 
+     transform: scale(1.1); 
 }
 
 
