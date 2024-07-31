@@ -5,10 +5,13 @@ const Uproject = () => {
 
     let imageContainerRef = useRef(null)
     let imageContainerRef2 = useRef(null)
+    let imageContainerRef3 = useRef(null)
     const prev = () => imageContainerRef.current.scrollLeft -= 250
     const next = () => imageContainerRef.current.scrollLeft += 250
     const prev2 = () => imageContainerRef2.current.scrollLeft -= 250
     const next2 = () => imageContainerRef2.current.scrollLeft += 250
+    const prev3 = () => imageContainerRef3.current.scrollLeft -= 250
+    const next3 = () => imageContainerRef3.current.scrollLeft += 250
 
   return (
     <div id="uproject">
@@ -105,8 +108,8 @@ const Uproject = () => {
           </div>
           <div class="body2">
             <div class="slider-wrapper2">
-              <i class="fa-solid fa-circle-chevron-left" id="backbtn" onClick={prev2}></i>
-              <div class="image-list2" ref={imageContainerRef2}>
+              <i class="fa-solid fa-circle-chevron-left" id="backbtn" onClick={prev3}></i>
+              <div class="image-list2" ref={imageContainerRef3}>
                 <img class="image-item2" src="/images/r1.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r2.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r3.png" alt="j1"></img>
@@ -116,7 +119,7 @@ const Uproject = () => {
                 <img class="image-item2" src="/images/r6.png" alt="j1"></img>
                 
               </div>
-              <i class="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={next2}></i>
+              <i class="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={next3}></i>
             </div>
          
           </div> 
@@ -130,47 +133,3 @@ const Uproject = () => {
 export default Uproject;
  
 
-/* import React, { useState } from 'react';
-import "./uproject.css"; // Assume you have CSS for styling
-
-const ImageSlider = () => {
-  // State to keep track of the current image index
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // List of images
-  const images = [
-    '/images/j1.jpg',
-    '/images/j2.jpeg',
-    '/images/j3.jpeg',
-    '/images/j4.jpeg',
-    '/images/j5.jpeg',
-    '/images/j7.jpg',
-    '/images/j9.jpg',
-    '/images/j6.jpeg',
-    '/images/j8.jpeg',
-    '/images/j10.jpeg',
-    '/images/j11.jpeg'
-  ];
-
-  // Function to handle the next button click
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  // Function to handle the back button click
-  const handleBack = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
-
-  return (
-    <div className="slider-wrapper">
-      <i className="fa-solid fa-circle-chevron-left" id="backbtn" onClick={handleBack}></i>
-      <div className="image-list">
-        <img className="image-item" src={images[currentIndex]} alt="slider" />
-      </div>
-      <i className="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={handleNext}></i>
-    </div>
-  );
-};
-
-export default ImageSlider; */
