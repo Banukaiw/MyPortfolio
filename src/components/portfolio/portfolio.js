@@ -41,12 +41,14 @@ const Portfolio = () => {
           <div className="work4"></div>
          <div className="work6"></div>
            <div className="work5"></div>
+           
           {showMore ? (
             <>
               <div className="work4"></div>
               <div className="work6"></div>
               <div className="work5"></div>
               <div className="work2"></div>
+              <div className="work8"></div>
             </>
           ) : (
             <>
