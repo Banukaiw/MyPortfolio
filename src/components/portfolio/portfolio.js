@@ -1,8 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import "./portfolio.css";
+
+
 /* <img src="/images/work1.png"></img>  */
 const Portfolio = () => {
   const [showMore, setShowMore] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a network request
+    setTimeout(() => {
+        setLoading(false);
+    }, 3000);
+  }, []);
 
   const handleLoadMore = () => {
     setShowMore(true);
@@ -16,7 +26,8 @@ const Portfolio = () => {
     <div id="portfolio">
       <div className="container">
         <h1 class="sub-title">My Work</h1>
-
+        
+        {/* {loading ? <Spinner /> : <h1>Data Loaded</h1>} */}
         {/* <div class="services-list2">
           <div className="work1"></div>
           <div className="work2"></div>
