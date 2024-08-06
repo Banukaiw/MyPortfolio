@@ -35,6 +35,7 @@ const Intro = () => {
   window.addEventListener("load", function(){
     loader.style.display = "none";
   }) */
+ /* <h1>test perpose</h1> */
 
   return (
     <div>
