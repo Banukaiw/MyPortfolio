@@ -12,14 +12,14 @@ const Intro = () => {
 
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  /* useEffect(() => {
     // Simulate an API call or some asynchronous operation
     setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the timeout duration as needed
-  }, []);
+    }, 3000); // Adjust the timeout duration as needed
+  }, []); */
 
-/*   useEffect(() => {
+   useEffect(() => {
     const handleLoad = () => {
         setLoading(false);
     };
@@ -29,19 +29,20 @@ const Intro = () => {
     return () => {
         window.removeEventListener('load', handleLoad);
     };
-}, []); */
+}, []); 
 
 /*   var loader = document.getElementById("preloader");
   window.addEventListener("load", function(){
     loader.style.display = "none";
   }) */
+ /* <h1>test perpose</h1> */
 
   return (
     <div>
        
 
     <div>
-      {loading ? <Preloader /> : <h1></h1>}
+      {loading ? <Preloader /> : <p></p>}
     </div>
     
       
