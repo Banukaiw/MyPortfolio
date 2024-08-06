@@ -5,10 +5,13 @@ const Uproject = () => {
 
     let imageContainerRef = useRef(null)
     let imageContainerRef2 = useRef(null)
+    let imageContainerRef3 = useRef(null)
     const prev = () => imageContainerRef.current.scrollLeft -= 250
     const next = () => imageContainerRef.current.scrollLeft += 250
     const prev2 = () => imageContainerRef2.current.scrollLeft -= 250
     const next2 = () => imageContainerRef2.current.scrollLeft += 250
+    const prev3 = () => imageContainerRef3.current.scrollLeft -= 250
+    const next3 = () => imageContainerRef3.current.scrollLeft += 250
 
   return (
     <div id="uproject">
@@ -105,8 +108,8 @@ const Uproject = () => {
           </div>
           <div class="body2">
             <div class="slider-wrapper2">
-              <i class="fa-solid fa-circle-chevron-left" id="backbtn" onClick={prev2}></i>
-              <div class="image-list2" ref={imageContainerRef2}>
+              <i class="fa-solid fa-circle-chevron-left" id="backbtn" onClick={prev3}></i>
+              <div class="image-list2" ref={imageContainerRef3}>
                 <img class="image-item2" src="/images/r1.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r2.png" alt="j1"></img>
                 <img class="image-item2" src="/images/r3.png" alt="j1"></img>
@@ -116,7 +119,7 @@ const Uproject = () => {
                 <img class="image-item2" src="/images/r6.png" alt="j1"></img>
                 
               </div>
-              <i class="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={next2}></i>
+              <i class="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={next3}></i>
             </div>
          
           </div> 

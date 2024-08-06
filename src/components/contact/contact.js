@@ -2,6 +2,21 @@ import React from 'react'
 import "./contact.css";
 
 const Contact = () => {
+
+    /* var notify = document.getElementById("cvbtn2");
+    function addnotify(){
+        alert("Succesfully Downloaded the CV!")
+    }
+
+    notify.addEventListener("click", addnotify); */
+
+    /* document.getElementById("cvbtn2").addEventListener("click", function() {
+        alert("Button was clicked!");
+    });  */
+
+    const handleClick1 = () => {
+        alert("Succesfully Downloaded the CV!")
+    }
     
   return (
     <div id="contact">
@@ -18,14 +33,14 @@ const Contact = () => {
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a> */}
                     </div> 
-                    <a href="images/Banuka Ishara Resume.pdf" download className="btn2"><i class="fa-solid fa-download"></i> Download CV</a>
+                    <a onClick={handleClick1} id="cvbtn2" href="images/Banuka Ishara Resume.pdf" download className="btn2"><i class="fa-solid fa-download"></i> Download CV</a>
                 </div>
                 <div className="contact-right">
                     <form>
                         <input type="text" name="Name" placeholder="Your name hear.." required></input>
                         <input type="email" name="Email" placeholder="Enter your email hear.." required></input>
                         <textarea name="Message" rows="6" placeholder="Enter Your.." ></textarea>
-                        <button type="submit" className="btn2"><i class="fa-solid fa-cloud-arrow-up"></i> Submit</button>
+                        <button type="submit" className="btn2" ><i class="fa-solid fa-cloud-arrow-up"></i> Submit</button>
                     </form>
                 </div>
             </div>
