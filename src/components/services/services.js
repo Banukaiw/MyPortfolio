@@ -30,6 +30,7 @@ const Services = () => {
                 <i class="fa-brands fa-app-store-ios"></i>
                     <h2>App Design</h2>
                     <p>Android studio - Java</p>
+                    <p>Flutter</p>
                     <a href = "#3">Learn more</a>
                 </div>
             </div>
