@@ -39,13 +39,7 @@ const About = () => {
          
             <h1 className="subtitle">About Me</h1>
             <p className="aboutme">
-              I am a dedicated QA engineer with a proven track record of
-              ensuring software quality and reliability. having previously
-              contributed to the success of SLT head office and currently
-              leveraging my skills by covering relevant courses, I bring a deep
-              understanding of testing methodologies, both manual and
-              automation. My education from SLII has equipped me with a solid
-              foundation in software engineering principless.
+            I am a dedicated Software Engineer with a proven track record of ensuring software quality and reliability. Having previously contributed to the success of the SLT Head Office and currently enhancing my skills through relevant courses, I bring a deep understanding of full-stack development, specializing in the MERN stack. My education from SLIIT has equipped me with a solid foundation in software engineering principles.
             </p>
 
             <div className="tab-titles">
@@ -168,8 +162,16 @@ const About = () => {
               <ul>
                 <li>
                   <span>
-                  Online Certificate Course in React Basics - Mobile 
-                  and Web Development
+                  React Basics - Mobile and Web Development - 
+Online Certificate Course 
+                  </span>
+                  <br />
+                  Coursera
+                </li>
+                <li>
+                  <span>
+                  Programming with JavaScript (Meta) - 
+Online Certificate Course 
                   </span>
                   <br />
                   Coursera

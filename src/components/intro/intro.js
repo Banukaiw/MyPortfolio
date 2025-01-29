@@ -69,7 +69,7 @@ const Intro = () => {
               Software Developer
             </span>
             <p className="intropara">
-              I am a dedicated web developer with extensive experience.
+              I am a dedicated Software developer with extensive experience.
               <br />
               expertise is to create and website design, Frontend design and
               many more ..
