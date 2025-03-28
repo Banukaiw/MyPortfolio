@@ -27,31 +27,14 @@ const Portfolio = () => {
       <div className="container">
         <h1 class="sub-title">My Work</h1>
         
-        {/* {loading ? <Spinner /> : <h1>Data Loaded</h1>} */}
-        {/* <div class="services-list2">
-          <div className="work1"></div>
-          <div className="work2"></div>
-          <div className="work3"></div>
-          <div className="work4"></div>
-          <div className="work6"></div>
-          <div className="work5"></div>
-        </div>
-        <div className="portbtn1">
-          <butoon className="portbtn" id="loadmore">
-            Load More <i class="fa-solid fa-angle-down"></i>
-          </butoon>
-        </div> */}
-
-
-
         <div>
         <div className="services-list2">
           <div className="work1"></div>
           <div className="work7"></div>
           <div className="work3"></div>
           <div className="work4"></div>
-         <div className="work6"></div>
-           <div className="work5"></div>
+          <div className="work6"></div>
+          <div className="work5"></div>
           {showMore ? (
             <>
             <div className="work4"></div>
@@ -59,6 +42,7 @@ const Portfolio = () => {
             <div className="work5"></div>
             <div className="work2"></div>
             <div className="work8"></div>
+            <div className="work9"></div>
           </>
           ) : (
             <>
