@@ -41,9 +41,9 @@ const Intro = () => {
     <div>
        
 
-    <div>
+  {/*   <div>
       {loading ? <Preloader /> : <p></p>}
-    </div>
+    </div> */}
     
       
       
