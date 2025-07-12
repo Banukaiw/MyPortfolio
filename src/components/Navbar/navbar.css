@@ -22,6 +22,7 @@
     border-radius: 16px;
     position: sticky;
     top: 0;
+    border: 1px solid aqua;
    
 
 }
@@ -39,8 +40,11 @@
     color: aqua;
     font-size: 2.1rem;
     font-family: 'Georgia';
-    /* margin-right: auto; */
     transition:  transform 0.5s;
+}
+
+.logo:hover {
+    transform: translate(-10px);
 }
 
 
@@ -69,11 +73,20 @@
 }
 .desktopMenu{
     list-style: none;
+    
+    display: flex; /* Ensure it's a flex container for its items */
+    text-decoration: none; /* Already defined at .navbar ul, but good to ensure */
+    list-style-type: none; /* Already defined at .navbar ul, but good to ensure */
+    align-items: center;
+    margin: 1px 0px 1px 1px;
 }
 
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Default link color */
+    transition: all 0.3s ease 0s;
 }
 .desktopMenuListItem:hover{
     color: aqua;
