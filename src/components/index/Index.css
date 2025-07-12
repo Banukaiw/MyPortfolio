@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    
   }
 
 body{
@@ -12,8 +11,7 @@ body{
     background-color: #262626;
     color: white;
     overflow: hidden;
-    overflow-y: scroll;
-    
+    overflow-y: scroll;   
 }
 
 #stickyButton {

@@ -11,13 +11,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
     grid-gap: 40px;
-    
 }
 
 .services-list2 div{  
     background-size: cover;
     padding: 40px;
-    transition: transform 0.4s ease-in-out,  background-position 10s  ease-in-out 0.1s ;
+    transition: transform 0.4s ease-in-out,  background-position 10s  ease-in-out 0.1s;
     border-radius: 15px;
     box-shadow: 5px 10px 8px #121212;
     border: 1px solid #121212;
