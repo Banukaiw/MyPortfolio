@@ -27,6 +27,7 @@ const Portfolio = () => {
       <div className="container">
         <h1 class="sub-title">My Works</h1>
         
+
         <div>
         <div className="services-list2">
           <div className="work1"></div>
@@ -42,6 +43,8 @@ const Portfolio = () => {
             <div className="work8"></div>
             
           </>
+
+
           ) : (
             <>
               <div className="work7" style={{ display: "none" }}></div>
