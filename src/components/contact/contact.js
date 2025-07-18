@@ -3,17 +3,6 @@ import "./contact.css";
 
 const Contact = () => {
 
-    /* var notify = document.getElementById("cvbtn2");
-    function addnotify(){
-        alert("Succesfully Downloaded the CV!")
-    }
-
-    notify.addEventListener("click", addnotify); */
-
-    /* document.getElementById("cvbtn2").addEventListener("click", function() {
-        alert("Button was clicked!");
-    });  */
-
     const handleClick1 = () => {
         alert("Succesfully Downloaded the CV!")
     }
@@ -25,7 +14,7 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1 className="sub-title">Contact Me</h1>
                     <p><i class="fa-solid fa-envelope"></i>banukaiw@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>(+94) 789765443 / (+94) 711044256</p>
+                    <p><i class="fa-solid fa-phone"></i>(+94) 789642771 / (+94) 711044256</p>
                     <p><i class="fa-solid fa-location-dot"></i>Dambakolle Watta, Palatuwa, Matara</p>
                   <div className="social-icon">
                         {/* <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -33,7 +22,7 @@ const Contact = () => {
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a> */}
                     </div> 
-                    <a onClick={handleClick1} id="cvbtn2" href="images/Banuka Ishara Resume.pdf" download className="btn2"><i class="fa-solid fa-download"></i> Download CV</a>
+                    <a onClick={handleClick1} id="cvbtn2" href="images/Banuka Ishara CV.pdf" download className="btn2"><i class="fa-solid fa-download"></i> Download CV</a>
                 </div>
                 <div className="contact-right">
                     <form>
