@@ -39,8 +39,8 @@ export const Index = () => {
       <div className="social-buttons">
         <a href="5" className="social-button facebook">Facebook<i className="fa-brands fa-square-facebook"></i></a>
         <a href="1" className="social-button twitter">Twitter<i className="fa-brands fa-square-twitter"></i></a>
-        <a href="2" className="social-button github">GitHub<i className="fa-brands fa-square-github"></i></a>
-        <a href="3" className="social-button linkedin">linkedIn<i className="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Banukaiw" className="social-button github">GitHub<i className="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/banuka-weththasinghe-86a7332b4/" className="social-button linkedin">linkedIn<i className="fa-brands fa-linkedin"></i></a>
       </div>
 
       {/* The sticky button */}

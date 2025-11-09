@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React  from "react";
 import "./intro.css";
-import Preloader from "../preloader/Preloader";
+/* import Preloader from "../preloader/Preloader"; */
 import Backvideo from "../../images/backvideo.mp4";
 
 const Intro = () => {
-  const [loading, setLoading] = useState(true);
+  /* const [loading, setLoading] = useState(true); */
 
-  useEffect(() => {
+ /*  useEffect(() => {
     const handleLoad = () => {
       setLoading(false);
     };
@@ -14,11 +14,11 @@ const Intro = () => {
     return () => {
       window.removeEventListener("load", handleLoad);
     };
-  }, []);
+  }, []); */
 
   return (
     <div>
-      <div>{loading ? <Preloader /> : <p></p>}</div>
+      {/* <div>{loading ? <Preloader /> : <p></p>}</div> */}
 
       <section id="intro">
         <video className="video" src={Backvideo} autoPlay loop muted></video>

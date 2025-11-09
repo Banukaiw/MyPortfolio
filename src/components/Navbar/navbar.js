@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import "./navbar.css";
-//import { Link } from "react-scroll";
-//import contactImg from "../../images/contact.jpg";
+
 
 const Navbar = () => {
 
@@ -26,10 +25,16 @@ const Navbar = () => {
         
         </ul>
 
-        <button className="contactmebtn">
+        {/* <button className="contactmebtn">
           <i href="#contact" class="fa-solid fa-briefcase"></i>Contact Me
         </button>
+ */}
 
+        <button className="contactmebtn">
+        <a href="#contact" className="contact-link">
+          <i class="fa-solid fa-briefcase"></i>Contact Me
+        </a>
+      </button>
 
 
         <div className="icon3" onClick={()=>setShowMenu(!showMenu)}>
