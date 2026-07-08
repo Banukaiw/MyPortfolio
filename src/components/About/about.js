@@ -35,8 +35,6 @@ const About = () => {
             <img className="Profile4" src={Profile4} alt="profile" />
           </div>
           <div className="about-col-2">
-
-         
             <h1 className="subtitle">About Me</h1>
             <p className="aboutme">
             I am a dedicated Software Engineer with a proven track record of ensuring software quality and reliability. Having previously contributed to the success of the SLT Head Office and currently enhancing my skills through relevant courses, I bring a deep understanding of full-stack development, specializing in the MERN stack. My education from SLIIT has equipped me with a solid foundation in software engineering principles.
