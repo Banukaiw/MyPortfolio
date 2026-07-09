@@ -37,7 +37,7 @@ const Uproject = () => {
               <i class="fa-solid fa-circle-chevron-left" id="backbtn" onClick={prev}></i>
               <div class="image-list" ref={imageContainerRef}>
                 <img class="image-item" src="/images/j1.jpg" alt="j1"></img>
-                <img class="image-item" src="/images/j2.jpeg" alt="j2"></img>
+                <img class="image-item" src="/images/j2.jpg" alt="j2"></img>
                 <img class="image-item" src="/images/j3.jpeg" alt="j3"></img>
                 <img class="image-item" src="/images/j4.jpeg" alt="j4"></img>
                 <img class="image-item" src="/images/j5.jpeg" alt="j5"></img>
