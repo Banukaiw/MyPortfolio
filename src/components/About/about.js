@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import Profile4 from "../../images/Banuka Ishara.jpg";
+import Profile4 from "../../images/Banuka Ishara 01.png";
 
 const About = () => {
   // State to keep track of active tab
@@ -11,6 +11,7 @@ const About = () => {
     setActiveTab(tabName);
   };
 
+  
   /* useEffect(() => {
     const canvas = document.querySelector('canvas');
     const ctx = canvas.getContext('2d');
