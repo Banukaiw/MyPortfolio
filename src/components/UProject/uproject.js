@@ -38,15 +38,15 @@ const Uproject = () => {
               <div class="image-list" ref={imageContainerRef}>
                 <img class="image-item" src="/images/j1.jpg" alt="j1"></img>
                 <img class="image-item" src="/images/j2.jpg" alt="j2"></img>
-                <img class="image-item" src="/images/j3.jpeg" alt="j3"></img>
-                <img class="image-item" src="/images/j4.jpeg" alt="j4"></img>
-                <img class="image-item" src="/images/j5.jpeg" alt="j5"></img>
+                <img class="image-item" src="/images/j3.jpg" alt="j3"></img>
+                <img class="image-item" src="/images/j4.jpg" alt="j4"></img>
+                <img class="image-item" src="/images/j5.jpg" alt="j5"></img>
                 <img class="image-item" src="/images/j7.jpg" alt="j6"></img>
                 <img class="image-item" src="/images/j9.jpg" alt="j9"></img>
-                <img class="image-item" src="/images/j6.jpeg" alt="j6"></img>
-                <img class="image-item" src="/images/j8.jpeg" alt="j8"></img>
-                <img class="image-item" src="/images/j10.jpeg" alt="j10"></img>
-                <img class="image-item" src="/images/j11.jpeg" alt="j11"></img>
+                <img class="image-item" src="/images/j6.jpg" alt="j6"></img>
+                <img class="image-item" src="/images/j8.jpg" alt="j8"></img>
+                <img class="image-item" src="/images/j10.jpg" alt="j10"></img>
+                <img class="image-item" src="/images/j11.jpg" alt="j11"></img>
               </div>
               <i class="fa-solid fa-circle-chevron-right" id="nextbtn" onClick={next}></i>
             </div>
