@@ -13,16 +13,16 @@ import { Index } from "./components/index/Index";
 function App() {
   return (
     <div className="App">
-      <Index/>
-      <Navbar/> 
-      <Intro/>
-      <Skills/>
-      <About/>  
-      <Services/>
-      <Uproject/>
-      <Portfolio/> 
-      <Contact/> 
-    
+      <Index />
+      <Navbar />
+      <Intro />
+      <Skills />
+      <About />
+      <Services />
+      <Uproject />
+      <Portfolio />
+      <Contact />
+
     </div>
   );
 }

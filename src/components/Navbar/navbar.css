@@ -1,20 +1,18 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
-    
+    padding: 0;
+
 }
 
 
+.navbar {
 
-
-.navbar{
-    
     padding: 1px 4% 1px 4%;
     max-width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     background: black;
     height: 4rem;
     z-index: 2;
@@ -23,24 +21,24 @@
     position: sticky;
     top: 0;
     border: 1px solid aqua;
-   
+
 
 }
 
- .navbar ul{
+.navbar ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
-    align-items: center;  
+    align-items: center;
     margin: 1px 0px 1px 1px;
-    
+
 }
 
-.logo{ 
+.logo {
     color: aqua;
     font-size: 2.1rem;
     font-family: 'Georgia';
-    transition:  transform 0.5s;
+    transition: transform 0.5s;
 }
 
 .logo:hover {
@@ -50,7 +48,7 @@
 
 
 
-.contactmebtn{
+.contactmebtn {
     font-size: 16px;
     font-family: 'Georgia';
     font-weight: bold;
@@ -61,60 +59,69 @@
     background-color: aqua;
     color: black;
     border: none;
-   display: flex;
+    display: flex;
     border-radius: 5px;
     cursor: pointer;
     min-width: 12%;
-    
-} 
+
+}
 
 
-.contact-link{
+.contact-link {
     gap: 1%;
 }
 
 .contactmebtn a {
     gap: 2%;
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Inherits color from parent, or set a specific color */
+    text-decoration: none;
+    /* Removes underline */
+    color: inherit;
+    /* Inherits color from parent, or set a specific color */
 }
 
 
-.logo:hover{
+.logo:hover {
     transform: translate(-10px);
 }
-.desktopMenu{
+
+.desktopMenu {
     list-style: none;
-    
-    display: flex; /* Ensure it's a flex container for its items */
-    text-decoration: none; /* Already defined at .navbar ul, but good to ensure */
-    list-style-type: none; /* Already defined at .navbar ul, but good to ensure */
+
+    display: flex;
+    /* Ensure it's a flex container for its items */
+    text-decoration: none;
+    /* Already defined at .navbar ul, but good to ensure */
+    list-style-type: none;
+    /* Already defined at .navbar ul, but good to ensure */
     align-items: center;
     margin: 1px 0px 1px 1px;
 }
 
-.desktopMenuListItem{
+.desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* Default link color */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: white;
+    /* Default link color */
     transition: all 0.3s ease 0s;
 }
-.desktopMenuListItem:hover{
+
+.desktopMenuListItem:hover {
     color: aqua;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid aqua;
-   
+
 }
 
 
-.desktopMenu li a{
+.desktopMenu li a {
     font-size: 17px;
     color: white;
     transition: all 0.3s ease 0s;
 }
 
-.desktopMenu li a:hover{
+.desktopMenu li a:hover {
     color: aqua;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid aqua;
@@ -122,14 +129,14 @@
 
 
 
-.active{
+.active {
     color: aqua;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid aqua;
 
 }
 
-.icon3{
+.icon3 {
     font-size: 20px;
     margin: 10px 10px;
     display: none;
@@ -137,7 +144,7 @@
     object-fit: cover;
 }
 
-.navMenu{
+.navMenu {
     position: absolute;
     top: 4rem;
     right: 2rem;
@@ -148,23 +155,23 @@
     height: 170px;
     gap: 15%;
     min-width: 15rem;
-    background: rgb(40,40,40);
+    background: rgb(40, 40, 40);
     border-radius: 1rem;
 }
 
-.ListItem{
+.ListItem {
     color: white;
-   
-   width: 150rem;
+
+    width: 150rem;
     padding: 0.5rem 5rem;
     margin: 0.25rem auto;
     margin-top: 2rem;
     border-radius: 0.25rem;
-    background: rgb(30,30,30);
-    
+    background: rgb(30, 30, 30);
+
 }
 
-.navMenu li a:hover{
+.navMenu li a:hover {
     color: aqua;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid aqua;
@@ -175,28 +182,28 @@
 
 
 @media (max-width:750px) {
-    .icon3{
+    .icon3 {
         display: block;
     }
-    .desktopMenu{
-        display: none;
-    }
 
-   
-    .contactmebtn{
-        display: none;
-    }
-
-    .desktopMenu{
+    .desktopMenu {
         display: none;
     }
 
 
-
-    .navbar ul{
+    .contactmebtn {
         display: none;
     }
- 
+
+    .desktopMenu {
+        display: none;
+    }
+
+
+
+    .navbar ul {
+        display: none;
+    }
+
 
 }
-
